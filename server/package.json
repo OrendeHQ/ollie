@@ -1,0 +1,34 @@
+{
+  "name": "ollie",
+  "version": "1.0.0",
+  "description": "Ollie Lights Server",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "nodemailer": "^4.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=dev nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/OrendeHQ/ollie.git"
+  },
+  "keywords": [
+    "ollie",
+    "lights"
+  ],
+  "author": "stanleynguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OrendeHQ/ollie/issues"
+  },
+  "homepage": "https://github.com/OrendeHQ/ollie#readme"
+}
